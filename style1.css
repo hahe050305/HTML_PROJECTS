@@ -1,0 +1,55 @@
+.one{
+    color: blue;
+    background-color:black;
+    display: inline;
+
+    /*border-width: 10px;
+    border-color: green;
+    border-style: solid;*/
+}
+
+.three{
+      color: purple;
+}
+
+li{
+    display: inline-block;
+    background-color: r;
+    color: yellow;
+
+    height: 20px;
+    width: 200px;
+    margin: 30px;
+
+    font-style: bold;
+    font-size: large;
+    
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.two
+{
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.four{
+    color: yellow;
+}
+
+h3{
+    color: yellow;
+}
+
+.five{
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+}
+
+a{
+    color: red;
+}
