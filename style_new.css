@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0 0 1em 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.one {
+    color: blue;
+    background-color: black;
+    display: inline;
+}
+
+.three {
+    color: orange;
+}
+
+li {
+    display: inline-block;
+    color: yellow;
+    height: 20px;
+    width: 200px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+    border: 5px solid green;
+}
+
+.two {
+    border: 10px solid red;
+    margin: 10px 0;
+}
+
+.four {
+    color: yellow;
+}
+
+h3 {
+    color: yellow;
+}
+
+.five {
+    border: 10px solid blue;
+    margin: 10px 0;
+}
+
+a {
+    color: red;
+}
+
+@media (min-width: 600px) {
+    .two, .five {
+        width: 300px;
+    }
+
+    .five {
+        width: 300px;
+    }
+}
